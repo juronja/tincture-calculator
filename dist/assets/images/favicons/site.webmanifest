@@ -1,6 +1,6 @@
 {
-    "name": "adc",
-    "short_name": "adc",
+    "name": "Tincture Calculator",
+    "short_name": "tc",
     "icons": [
         {
             "src": "assets/images/favicons/android-chrome-192x192.png",

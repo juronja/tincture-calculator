@@ -1,8 +1,8 @@
 version: '3.8'
 services:
-  alcohol-dilution-calculator:
-    image: 'juronja/alcohol-dilution-calculator:latest'
-    container_name: alcohol-dilution-calculator
+  app:
+    image: 'juronja/tincture-calculator:latest'
+    container_name: tincture-calculator
     restart: unless-stopped
     ports:
       # These ports are in format <host-port>:<container-port>
