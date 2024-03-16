@@ -12,7 +12,7 @@ function handleCalculate() {
     if (targetVolume !== "") {
         document.getElementById("results-output").style.display = "block";
         document.getElementById("result-validation").style.display = "none";
-        document.getElementById("herbs").textContent = herbs + " g";
+        document.getElementById("herbs").textContent = "~ " + herbs + " g";
         document.getElementById("alcohol").textContent = alcohol + " ml";
         document.getElementById("water").textContent = water + " ml";
     } else {
