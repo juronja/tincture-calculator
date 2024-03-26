@@ -1,0 +1,8 @@
+name: tincture-calculator # Will be used for network auto naming and image names
+services:
+  app:
+    image: 'juronja/tincture-calculator:latest'
+    container_name: tincture-calculator
+    restart: unless-stopped
+    ports:
+      - '7474:80' # These ports are in format <host-port>:<container-port>
